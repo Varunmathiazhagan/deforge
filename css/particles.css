@@ -1,0 +1,20 @@
+/* particles.css */
+
+.particle {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 10px; /* Increased from smaller value */
+    height: 10px; /* Increased from smaller value */
+    opacity: 0.7;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
